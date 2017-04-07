@@ -161,6 +161,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Set the data for MainActivity
             mData = cursor;
+
             // Get the column index, in the Cursor, of each piece of data
             mDefCol = mData.getColumnIndex(DroidTermsExampleContract.COLUMN_DEFINITION);
             mWordCol = mData.getColumnIndex(DroidTermsExampleContract.COLUMN_WORD);
